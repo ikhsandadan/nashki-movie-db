@@ -6,8 +6,8 @@ import { FreeMode, Navigation } from 'swiper/modules';
 import Tooltip from '@mui/material/Tooltip';
 
 import 'swiper/css';
-import 'swiper/css/free-mode';
-import 'swiper/css/navigation';
+import 'swiper/scss/free-mode';
+import 'swiper/scss/navigation';
 
 const Slider = (movies) => {
     const [Movies, setMovies] = useState([]);
