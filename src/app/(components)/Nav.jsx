@@ -256,7 +256,7 @@ const Nav = () => {
 
     return (
         <Box sx={{ flexGrow: 1 }}>
-            <AppBar position="fixed" color="transparent" className={header ? "shadow-none bg-black" :"shadow-none bg-transparent"}>
+            <AppBar position="fixed" color="transparent" className={header ? "shadow-none bg-black css-10srjip-MuiPaper-root-MuiAppBar-root" :"shadow-none bg-transparent css-10srjip-MuiPaper-root-MuiAppBar-root"}>
                 <Toolbar className="mt-0">
                 <Typography
                     variant="h6"
