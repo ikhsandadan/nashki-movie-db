@@ -14,6 +14,7 @@ I will explain the features implemented here according to their respective pages
   
 
  - Big carousel
+   
  In this section, I have implemented a carousel feature that displays trending movies from around the world. Users can navigate through the carousel by clicking on the dot pagination or the arrows on the right and left sides.
  
  ![1-1](https://github.com/ikhsandadan/nashki-movie-db/assets/116878888/d651242c-3749-4ee6-a2a0-be7717aa6f22)
@@ -23,6 +24,7 @@ I will explain the features implemented here according to their respective pages
 
 
  - Popular in user country
+   
  In this section, I have implemented a slider feature that displays popular movies in the user's country. Users can navigate through the slider by clicking and dragging the movie posters to the left or right (free mode), or by clicking on the arrows on the right and left sides.
  
  ![1-5](https://github.com/ikhsandadan/nashki-movie-db/assets/116878888/f8c561ec-881f-4081-8c14-2f3793c9ca1f)
@@ -32,6 +34,7 @@ I will explain the features implemented here according to their respective pages
 
  
  - Now playing movie in user country
+   
  In this section, I have implemented a slider feature that displays movies currently playing in the user's country. Users can navigate through the slider by clicking and dragging the movie posters to the left or right (free mode), or by clicking on the arrows on the right and left sides
  
  ![1-8](https://github.com/ikhsandadan/nashki-movie-db/assets/116878888/ecdc311c-90a6-4b89-8b04-a1b4c5a2fb4a)
@@ -41,6 +44,7 @@ I will explain the features implemented here according to their respective pages
 
 
  - Upcoming movie in user country
+   
  In this section, I have implemented a slider feature that displays upcoming movies in the user's country. Users can navigate through the slider by clicking and dragging the movie posters to the left or right (free mode), or by clicking on the arrows on the right and left sides.
 
 ![1-10](https://github.com/ikhsandadan/nashki-movie-db/assets/116878888/6623fb5b-5ac1-4e25-b5a4-65ce146626c5)
@@ -50,6 +54,7 @@ I will explain the features implemented here according to their respective pages
 
 
 **2. Movies Page**
+
 On this page, I have implemented a feature to view almost all movies from around the world (500 pages) sorted by the most trending titles. Additionally, I have created a sorting feature based on the available movie genres, which users can utilize. If a user clicks on one of the movie posters, they will be directed to the MovieDetail page, which I will explain later.
 
 ![2-1](https://github.com/ikhsandadan/nashki-movie-db/assets/116878888/f2db3c2f-27e6-4102-bb30-607c112c6289)
@@ -60,6 +65,7 @@ On this page, I have implemented a feature to view almost all movies from around
 
 
 **3. Top Rated Page**
+
 On this page, I have implemented a feature to display the highest-rated movies from around the world. On the displayed movie posters, I have also included the rating for each film to assist users. If a user clicks on one of the movie posters, they will be directed to the MovieDetail page, which I will explain later.
 
 ![3-1](https://github.com/ikhsandadan/nashki-movie-db/assets/116878888/0fa1ef84-fa2d-4a6b-9a07-d0946cc4229a)
@@ -69,6 +75,7 @@ On this page, I have implemented a feature to display the highest-rated movies f
 
 
 **4. Profile Page**
+
 On my profile page, I've incorporated a feature to display all user information obtained from Affinidi.
 
 ![4-1](https://github.com/ikhsandadan/nashki-movie-db/assets/116878888/940da26e-925b-4612-aa31-15a24e219f7d)
@@ -76,9 +83,11 @@ On my profile page, I've incorporated a feature to display all user information 
 
 
 **5. Movie Detail Page**
+
 On the MovieDetail page, I have implemented a feature that displays detailed information about the movie selected by the user. The displayed information consists of:
 
  - Movie details
+   
  At the top section, I display the poster, backdrop, film title, rating, duration, release date, genre, and synopsis.
  
  ![5-1](https://github.com/ikhsandadan/nashki-movie-db/assets/116878888/899e3c62-0c37-4e2a-a857-392255f1818e)
@@ -87,7 +96,8 @@ On the MovieDetail page, I have implemented a feature that displays detailed inf
  ![5-9](https://github.com/ikhsandadan/nashki-movie-db/assets/116878888/467939b4-7a66-46a4-86d0-efa9fcd02e5d)
 
  
- - Useful links and movie trailers.
+ - Useful links and movie trailers
+   
  In this section, I showcase the IMDB.com link of the film and its official website (if available). Additionally, I also present trailers of the film.
  
  ![5-2](https://github.com/ikhsandadan/nashki-movie-db/assets/116878888/dbe08d2f-b02c-436e-8f6a-efff89ee9f81)
@@ -99,6 +109,7 @@ On the MovieDetail page, I have implemented a feature that displays detailed inf
 
  
  - Showtimes
+   
  In this section, I display the film's cinema showtimes (if available), tailored to the user's location using the API from serpapi.com.
  
  ![5-3](https://github.com/ikhsandadan/nashki-movie-db/assets/116878888/e842c018-7d2c-4eab-9a93-2b077e43ab33)
@@ -108,6 +119,7 @@ On the MovieDetail page, I have implemented a feature that displays detailed inf
 
  
  - Production companies
+   
  In this section, I showcase the production companies involved in creating the film.
  
  ![5-4](https://github.com/ikhsandadan/nashki-movie-db/assets/116878888/01e83a29-073a-4674-92fd-6df373da00e1)
