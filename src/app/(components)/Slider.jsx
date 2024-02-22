@@ -22,7 +22,6 @@ const Slider = (movies) => {
             freeMode={true}
             navigation={true}
             modules={[FreeMode, Navigation]}
-            className="mySwiper"
         >
             {Movies?.map((movie) => {
                 return (
