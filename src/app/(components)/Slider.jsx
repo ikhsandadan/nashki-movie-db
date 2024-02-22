@@ -6,7 +6,6 @@ import { FreeMode, Navigation } from 'swiper/modules';
 import Tooltip from '@mui/material/Tooltip';
 
 import 'swiper/css';
-import 'swiper/swiper.min.css';
 import 'swiper/react';
 import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
