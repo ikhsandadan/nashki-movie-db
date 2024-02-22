@@ -193,8 +193,8 @@ const Nav = () => {
                 <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
                     <div className="grid grid-rows-2 relative items-center self-center">
                         <Search className="flex self-center drop-shadow-lg absolute top-2 right-10">
-                            <SearchIconWrapper>
-                            <SearchIcon sx={{color: 'white'}}/>
+                            <SearchIconWrapper className="self-center">
+                            <SearchIcon sx={{color: 'white'}} className="self-center"/>
                             </SearchIconWrapper>
                             <StyledInputBase
                                 placeholder="Search…"
