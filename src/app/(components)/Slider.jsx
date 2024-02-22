@@ -27,7 +27,7 @@ const Slider = (movies) => {
         >
             {Movies?.map((movie) => {
                 return (
-                    <SwiperSlide key={movie.id} className="scale-90">
+                    <SwiperSlide key={movie.id} className="scale-90 text-white">
                         <Link href={`/Moviedetail/${movie.id}`} style={{textDecoration: "none", color:"white"}}>
                             <Tooltip title={movie.original_title}>
                                 <div className="max-w-56 rounded hover:scale-105">
