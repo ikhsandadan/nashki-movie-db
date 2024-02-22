@@ -22,6 +22,7 @@ const Slider = (movies) => {
             freeMode={true}
             navigation={true}
             modules={[FreeMode, Navigation]}
+            className="scale-95"
         >
             {Movies?.map((movie) => {
                 return (
