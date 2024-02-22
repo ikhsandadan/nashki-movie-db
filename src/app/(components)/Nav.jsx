@@ -192,15 +192,15 @@ const Nav = () => {
             return (
                 <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
                     <div className="grid grid-rows-2 relative items-center self-center">
-                        <Search className="flex self-center drop-shadow-lg absolute top-2 right-10">
-                            <SearchIconWrapper className="self-center">
-                            <SearchIcon sx={{color: 'white'}} className="self-center"/>
+                        <Search className="flex self-center items-center drop-shadow-lg absolute top-2 right-10">
+                            <SearchIconWrapper className="self-center items-center">
+                            <SearchIcon sx={{color: 'white'}} className="self-center items-center"/>
                             </SearchIconWrapper>
                             <StyledInputBase
                                 placeholder="Search…"
                                 inputProps={{ 'aria-label': 'search' }}
                                 sx={{color: 'white'}}
-                                className="self-center drop-shadow-lg"
+                                className="self-center items-center drop-shadow-lg"
                                 onChange={(e) => handleChange(e.target.value)}
                             />
                         </Search>
