@@ -103,7 +103,7 @@ const Frontpage = () => {
                 </Carousel>
                 <div className="grid grid-flow-row auto-rows-max">
                     <div className="text-white text-2xl text-start font-nsans-bold mt-14 ml-10">Popular In {userCountry}</div>
-                    <Slider movies={popularMovies} status={"popular"}/>
+                    <Slider movies={popularMovies} status={"popular"} className="scale-90"/>
                     <div className="text-white text-2xl text-start font-nsans-bold mt-14 ml-10">Now Playing In {userCountry}</div>
                     <Slider movies={nowPlayingMovies} status={"now playing"}/>
                     <div className="text-white text-2xl text-start font-nsans-bold mt-14 ml-10">Upcoming In {userCountry}</div>
