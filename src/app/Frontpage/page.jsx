@@ -101,7 +101,7 @@ const Frontpage = () => {
                         </Link>
                     ))}
                 </Carousel>
-                <div className="">
+                <div>
                     <div className="text-white text-2xl text-start font-nsans-bold mt-14 ml-10">Popular In {userCountry}</div>
                     <Slider movies={popularMovies} status={"popular"}/>
                     <div className="text-white text-2xl text-start font-nsans-bold mt-14 ml-10">Now Playing In {userCountry}</div>
