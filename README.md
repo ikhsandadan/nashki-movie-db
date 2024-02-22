@@ -9,6 +9,7 @@ For this bounty, I have developed a web application for a movies database. The m
 I will explain the features implemented here according to their respective pages.
 
   **1. Home Page**
+  
   On the home page, there are several features, including:
   
 
