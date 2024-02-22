@@ -29,7 +29,7 @@ const Slider = (movies) => {
                     <SwiperSlide key={movie.id}>
                         <Link href={`/Moviedetail/${movie.id}`} style={{textDecoration: "none", color:"white"}}>
                             <Tooltip title={movie.original_title}>
-                                <div  className="max-w-56 rounded hover:scale-105">
+                                <div  >
                                     <img src={`https://image.tmdb.org/t/p/original${movie && movie.poster_path}`} alt={movie.original_title} className="max-w-56 rounded hover:scale-105"/>
                                 </div>
                             </Tooltip>
