@@ -2,6 +2,8 @@
 
 ## Nashki Movie Database with Affinidi
 
+https://nashki-movie-db.vercel.app/
+
 For this bounty, I have developed a web application for a movies database. The movies data is retrieved from the [www.themoviedb.org](http://www.themoviedb.org/) API, while Affinidi is used for user information.
 
 ![home](https://github.com/ikhsandadan/nashki-movie-db/assets/116878888/0d8df05a-bdda-4f91-b8ed-689dec18da87)
