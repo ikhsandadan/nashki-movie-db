@@ -174,8 +174,8 @@ const Moviedetails = () => {
                             {showtimes?.map((show) => (
                                 <tr>
                                     <td className="border border-white">
-                                        <div className='mx-4 my-2'>{show?.name}, distance: {show?.distance}</div>
-                                        <div className='mx-4 my-2'>distance: {show?.distance}</div>
+                                        <div className='mx-4 my-2'>{show?.name}</div>
+                                        <div className='mx-4 my-2'>Distance: {show?.distance}</div>
                                         <div className='text-sm mx-4 my-2'>{show?.address}</div>
                                         {show?.showing?.map((shows) => (
                                             <div >
